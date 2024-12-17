@@ -98,3 +98,29 @@ h2 {
   padding: 10px;
   border-left: 5px solid var(--accent-color);
 }
+/* Contacts */
+.lien_contact a {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.lien_contact img {
+  width: 50px;
+  height: auto;
+}
+
+.lien_contact figcaption {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: var(--primary-color);
+  color: white;
+  margin-top: 20px;
+}
+
