@@ -34,10 +34,9 @@ header {
         color: white;
         text-decoration: none;
         font-size: 1.1rem;
-
-        a:hover {
-          color: var(--accent-color);
-        }
+      }
+      a:hover {
+        color: var(--accent-color);
       }
     }
   }
@@ -56,3 +55,27 @@ h2 {
   border-radius: 8px;
 }
 
+/* Liens CV et contact */
+.btn_cv {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.btn_cv:hover {
+  background-color: var(--primary-color);
+}
+
+/* Compétences */
+.competence_front-end, .competence_back-end {
+  margin: 20px 0;
+}
+
+.logo_front-end img, .logo_back-end img {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+}
