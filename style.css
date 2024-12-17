@@ -92,3 +92,9 @@ h2 {
   color: var(--text-color);
   line-height: 1.5;
 }
+
+/* Expériences */
+.stage_cyberpark {
+  padding: 10px;
+  border-left: 5px solid var(--accent-color);
+}
