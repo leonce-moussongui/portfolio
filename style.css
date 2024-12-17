@@ -43,4 +43,16 @@ header {
   }
 }
 
+h2 {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Image principale responsive */
+.photo_domaine img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 
