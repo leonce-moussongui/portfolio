@@ -6,3 +6,12 @@
   --text-color: #333333; /* Noir pour le texte */
 }
 
+/* Style du body */
+body {
+  margin: 0;
+ padding: 0;
+ color: var(--text-color);
+ background-color: var(--secondary-color);
+ line-height: 1.6;
+}
+
