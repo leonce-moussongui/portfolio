@@ -79,3 +79,16 @@ h2 {
   height: auto;
   margin: 10px;
 }
+
+/* Projets */
+.projet_fansite img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.description_fansite {
+  margin-top: 20px;
+  color: var(--text-color);
+  line-height: 1.5;
+}
