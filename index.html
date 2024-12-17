@@ -3,62 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfoliode Leonce MOUSSONGUI, étudiante en informatique">
+    <meta name="auteur" content="Leonce MOUSSONGUI">
     <link rel="stylesheet" href="style.css">
     <title> Portfolio Leonce MOUSSONGUI </title>
 </head>
+
 <body>
     <header>
         <nav>
-            <section>
-                <h3> <a href=""> PORTFOLIO </a> </h3>
-            </section>
-            <section>
-                <a href=""> PROFIL </a>
-                <a href=""> COMPÉTENCES </a>
-                <a href=""> PROJETS </a>
-                <a href=""> CONTACT </a>
+            <ul>
+                <li> <a href="#a_propos" aria-label="lien vers à propos"> À propos </a> </li>
+                <li> <a href="#competence" aria-label="lien vers les compétences"> Compétences </a> </li>
+                <li> <a href="#projet" aria-label="lien vers les projets"> Projets </a> </li>
+                <li> <a href="#contact" aria-label="lien vers le contact"> Contact </a> </li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <section class="a_propos">
-            <h3> À Propos </h3>
-        <p>
-            Bonjour et bienvenue sur mon portfolio. <br> Je m'appelle Leonce MOUSSONGUI j'ai 17 ans et je suis originaire du Cameroun.
-            Étant passionnée par l'informatique depuis de nombreuses années, je me suis naturellement dirigé vers un bac avec les spécialités Mathématiques-Physique-Chimie au lycée.
 
-            Je suis en pré, j'ai pu approfondir mes connaissances en développement et découvrir de nouvelles technologies. 
-            J'ai ainsi participé à plusieurs projets d'équipe qui m'ont permis de mettre en pratique mes compétences et de les enrichir.
-            Plus tard, j'envisage de me spécialiser en développement notamment grâce à la certification CDA que je suis actuellement en train de suivre.
-            Après ces trois années, je souhaite préparer un diplôme d'ingénieur ou équivalent, en poursuivant mes études par 2 années d'alternance.
-
-        Je serai très heureux de pouvoir vous aider dans vos futurs projets.
-        Si vous souhaitez en savoir plus sur moi, mes compétences et mes différents projets, ou tout simplement savoir comment me contacter, n'hésitez pas à explorer ce site et à me faire des retours. Vous pouvez consulter mon CV en cliquant sur le lien suivant Accéder au CV.
-
-        Bonne lecture et à bientôt.
-        </p>
+        <section class="photo_domaine">
+            <img src="images/Leonce MOUSSONGUI.png" alt="image de ma description">
+        </section>
+        <section id="a_propos">
+            <h2> À Propos </h2>
+            <p>
+                Bonjour et bienvenue sur mon portfolio. <br> Je m'appelle <strong> Leonce MOUSSONGUI </strong> j'ai 17 ans et je suis originaire du Cameroun.
+                Étant passionnée par l'informatique depuis de nombreuses années, je me suis naturellement dirigé vers un bac avec les spécialités Mathématiques-Physique-Chimie au lycée.
+                Je suis en première année de bachelor IT à la Plateforme Marseille, j'ai pu approfondir mes connaissances en réseau et découvrir de nouvelles technologies. 
+                J'ai ainsi participé à plusieurs projets d'équipe qui m'ont permis de mettre en pratique mes compétences et de les enrichir.
+                Plus tard, j'envisage de me spécialiser dans la sécurité des données et du réseau. Après ces trois années, je souhaite préparer un diplôme 
+                d'ingénieur ou équivalent, en poursuivant mes études par 2 années d'alternance. <br>
+                Je serais très heureuse de pouvoir vous aider dans vos futurs projets. Si vous souhaitez en savoir plus sur moi, mes compétences et mes 
+                différents projets, ou tout simplement savoir comment me contacter, n'hésitez pas à explorer ce site et à me faire des retours. 
+                Vous pouvez consulter mon CV en cliquant sur le lien suivant
+                <a href="fichier/Nouveau CV.pdf" target="_blank" class="btn_cv" aria-label="Télécharger mon CV"> Accédez à mon CV </a> <br> <br>
+                Bonne lecture et à bientôt.
+            </p>
         </section>
         
-        <section class="competence">
-            <h3> Mes Compétences </h3>
 
+        <section id="competence">
+            <h2> Mes Compétences </h2>
+            <section class="competence_front-end">
+                <h3> Front-end </h3>
+               <article class=" logo_front-end ">
+                    <img src="images/logo_html-removebg-preview.png" alt=" logo html ">
+                    <img src="images/css_logo-removebg-preview.png" alt=" logo css ">
+                </article>
+            </section>
+
+            <section id="competence_back-end">
+                <h3> Back-end </h3>
+                <article class="logo_back-end">
+                    <img src="images/python_logo-removebg-preview.png" alt=" logo de python ">
+                    <img src="images/git_logo-removebg-preview (1).png" alt=" logo de git ">
+                </article>
+            </section>
         </section>
 
-        <section class="projet">
+
+        <section id="projet">
             <h3> Mes Projets </h3>
+            <section class="projet_fansite">
+                <img src="images/projet fansite.png" alt=" capture d'écran du projet du fansite ">
+            </section>
 
+            <section class="description_fansite">
+                <h4> Projet Fansite : développement d'un site en HTML et CSS </h4>
+                <p>
+                    Dans le cadre de ce projet de groupe, nous avons développé un fansite en utilisant HTML et CSS. 
+                    L'objectif principal était de créer un site web simple, mais visuellement attractif, qui reflétait l'univers du thème choisi et le notre se portait sur le monde de la musique. 
+                    Le projet a impliqué une collaboration étroite entre les membres du groupe, chacun étant responsable d'une partie spécifique 
+                    du site, que ce soit la structure des pages, la mise en page ou la création des éléments graphiques. Nous avons utilisé HTML 
+                    pour organiser le contenu et structurer les différentes sections du site, tout en appliquant des styles personnalisés avec CSS 
+                    pour assurer une expérience utilisateur agréable. Nous avons mis l'accent sur la responsivité, en veillant à ce que le site soit 
+                    accessible sur différents appareils, et sur une navigation fluide et intuitive. Ce projet m'a permis de renforcer mes compétences 
+                    techniques en développement web tout en travaillant en équipe, en respectant les délais et en trouvant des solutions créatives aux défis rencontrés.
+                </p>
+            </section>
         </section>
-        <section class="experience">
+
+
+        <section id="experience">
             <h3> Mes Expériences </h3>
+            <section class="stage_cyberpark">
+                <h4> La Plateforme - Cyberpark </h4>
+                <h5> 14/10/2024 au 25/10/2024 - Animatrice de programme extra-scolaire </h5>
+                <p>
+                    Lors de mon stage de 2 semaines chez Cyberpark, à la plateforme Marseille, j'ai eu l'opportunité de travailler en tant 
+                    qu'animateur de programme extra-scolaire pour un public jeune, dans le cadre d'une initiation à la cybersécurité. 
+                    Cette expérience m'a permis d'approfondir mes compétences en animation et en gestion d'activités éducatives, tout en découvrant 
+                    l'importance de sensibiliser les jeunes aux enjeux numériques. Mes missions principales étaient les suivantes : <br>
+                    - Accueil du public et relations avec les familles : J'ai pris en charge l'accueil des enfants, 
+                    en assurant un suivi personnalisé et en répondant à leurs questions concernant le programme. <br>
+                    - Coordination logistique : J'ai participé à la mise en place et à l'organisation des sessions de formation, 
+                    en veillant à ce que le matériel nécessaire soit disponible et en assurant le bon déroulement des activités. <br>
+                    - Animation des modules pédagogiques : J'ai animé des ateliers visant à enseigner les bases de la cybersécurité, en 
+                    rendant les concepts accessibles et intéressants pour les jeunes, à travers des exemples pratiques et des exercices interactifs. <br>
+                    - Suivi et évaluation : J'ai également été impliqué dans l'évaluation des progrès des participants, en recueillant leurs 
+                    retours et en ajustant les activités en fonction de leurs besoins.<br> Cette expérience m'a permis de développer des compétences en pédagogie et en gestion de groupe, tout en renforçant ma capacité à adapter mon discours et mes méthodes à un jeune public. Mon tuteur a particulièrement apprécié ma capacité à créer un environnement d'apprentissage stimulant et à gérer les activités de manière fluide. Grâce à ce stage, j'ai acquis une meilleure compréhension des enjeux de la cybersécurité tout en consolidant mes compétences en animation et en communication.
+                </p>
+            </section>     
         </section>
-        <section class="contact">
-            <h3> Contact </h3>
+
+
+        <section id="contact">
+            <h3> Me Contacter </h3>
+            <article class="lien_contact">
+                <a href="mailto:leonce-vicente.moussongui@laplateforme.io" aria-label=" lien vers la boite mail avec l'adresse " target="_blank">
+                    <figure>
+                        <img src="images/logo_mail-removebg-preview.png" alt=" logo du mail ">
+                        <figcaption> Mail </figcaption>
+                    </figure>
+                </a>
+
+                <a href="https://github.com/leonce-moussongui" aria-label=" lien vers mon github " target="_blank">
+                    <figure>
+                        <img src="images/logo_github-removebg-preview.png" alt=" logo de github ">
+                        <figcaption> Github </figcaption>
+                    </figure>
+                </a>
+
+                <a href="https://www.linkedin.com/in/leonce-moussongui-2586a0330/" aria-label=" lien vers le compte LinkedIn " target="_blank">
+                    <figure>
+                        <img src="images/logo_linkedin-removebg-preview.png" alt=" logo de Linkedin ">
+                        <figcaption> LinkedIn </figcaption>
+                    </figure>
+                </a>
+            </article>
         </section>
-        
+
     </main>
 
     <footer>
-        <span> &copy; Leonce MOUSSONGUI 2024 </span>
+        <span> &copy; Leonce MOUSSONGUI 2024. Tous droits réservés </span>
     </footer>
 </body>
 </html>
