@@ -69,6 +69,7 @@ h2 {
   background-color: var(--primary-color);
 }
 
+
 /* Compétences */
 .competence_front-end, .competence_back-end {
   margin: 20px 0;
@@ -98,21 +99,22 @@ h2 {
   padding: 10px;
   border-left: 5px solid var(--accent-color);
 }
+
 /* Contacts */
 .lien_contact a {
   display: inline-block;
   margin: 10px;
   text-align: center;
-}
 
-.lien_contact img {
-  width: 50px;
-  height: auto;
-}
+  img {
+    width: 50px;
+    height: auto;
+  }
 
-.lien_contact figcaption {
-  color: var(--primary-color);
-  font-size: 0.9rem;
+  figcaption {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+  }
 }
 
 /* Footer */
