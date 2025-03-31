@@ -83,11 +83,11 @@ h2 {
 }
 
 /* Compétences */
-.competence_front-end, .competence_back-end {
+.competence_front-end, .competence_back-end, .competence_autre {
   margin: 20px 0;
 }
 
-.logo_front-end img, .logo_back-end img {
+.logo_front-end img, .logo_back-end img, .logo_autre img {
   width: 100px;
   height: auto;
   margin: 10px;
